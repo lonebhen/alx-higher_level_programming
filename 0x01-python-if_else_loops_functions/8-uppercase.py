@@ -10,5 +10,5 @@ def uppercase(str):
     print("\n")
 
 
-uppercase("Best")
-uppercase("Stop copying")
+# uppercase("Best")
+# uppercase("Stop copying")
