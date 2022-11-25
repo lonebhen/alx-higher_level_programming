@@ -7,8 +7,8 @@ def uppercase(str):
         else:
             letter = 0
         print("{:c}".format(ord(str[i]) - letter), end='')
-    print("\n")
+    print()
 
 
 # uppercase("Best")
-# uppercase("Stop copying")
+# uppercase("Hello Slim")
