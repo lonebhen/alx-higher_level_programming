@@ -1,0 +1,1 @@
+How to import and read data from one file to another in python
