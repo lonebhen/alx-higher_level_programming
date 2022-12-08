@@ -3,10 +3,10 @@
 def safe_print_integer(value):
     try:
         print("{:d}".format(value))
+        print()
         return True
     except ValueError:
         return False
-    print()
 
 
 # value = "School"
