@@ -14,7 +14,7 @@ def safe_print_list_integers(my_list=[], x=0):
     return count
 
 
-my_list = [1, 2, 3, "School", 4, 5, [1, 2, 3]]
-# nb_print = safe_print_list_integers(my_list, len(my_list))
-nb_print = safe_print_list_integers(my_list, len(my_list) + 2)
-print(nb_print)
+# my_list = [1, 2, 3, "School", 4, 5, [1, 2, 3]]
+# # nb_print = safe_print_list_integers(my_list, len(my_list))
+# nb_print = safe_print_list_integers(my_list, len(my_list) + 2)
+# print(nb_print)
