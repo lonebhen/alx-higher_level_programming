@@ -53,7 +53,7 @@ class Rectangle:
             return ("")
         rect = []
 
-        for i in range(self._height):
+        for i in range(self.height):
             [rect.append('#') for j in range(self.width)]
             if i != self.height - 1:
                 rect.append("\n")
