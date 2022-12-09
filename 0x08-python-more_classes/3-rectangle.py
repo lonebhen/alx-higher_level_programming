@@ -49,12 +49,12 @@ class Rectangle:
         return (2*self.width) + (2*self.height)
 
     def __str__(self):
-        if self.__width == 0 or self.__height == 0:
+        if self.width == 0 or self.height == 0:
             return ("")
         rect = []
 
-        for i in range(self.__height):
-            [rect.append('#') for j in range(self.__width)]
+        for i in range(self._height):
+            [rect.append('#') for j in range(self.width)]
             if i != self.height - 1:
                 rect.append("\n")
-            return ("".join(rect))
+        return ("".join(rect))
