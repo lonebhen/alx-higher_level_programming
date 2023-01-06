@@ -6,16 +6,14 @@
 def pascal_triangle(n):
     """Pascal`s triangle"""
 
-    list = [1]
     if n <= 0:
         return []
-    else:
-        for i in range(n):
-            return list
-            new_list = []
-            new_list.append(list[0])
-            for i in range(len(list) - 1):
-                new_list.append(list[i] + list[i+1])
-            new_list.append(list[-1])
-
-            list = new_list
+    triangles = [[1]]
+    while len(triangles) != n:
+        tri = triangles[-1]
+        tmp = [1]
+        for i in range(len(tri) - 1):
+            tmp.append(tri[i] + tri[i + 1])
+        tmp.append(1)
+        triangles.append(tmp)
+    return triangles
